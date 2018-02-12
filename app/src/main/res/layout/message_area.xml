@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    android:background="@color/colorWhite"
+    android:orientation="horizontal">
+    
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColorHint="@color/colorlight_grey"
+        android:padding="@dimen/_5sdp"
+        android:textColor="@color/colorBlack"
+        android:background="@android:color/transparent"
+        android:hint="Write your message here..."
+        android:id="@+id/messageArea"
+        android:textSize="@dimen/_12sdp"
+        android:maxHeight="80dp"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:padding="@dimen/_5sdp"
+        android:src="@drawable/enter_chat"
+        android:id="@+id/sendButton"/>
+</LinearLayout>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <include layout="@layout/edit_header_layout"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_20sdp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="User type"
+                android:textSize="@dimen/_13sdp"
+                android:textColor="@color/colordarkgrey"/>
+
+            <Spinner
+                android:id="@+id/spn_primarily"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=""
+                android:inputType="textPassword"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:textSize="@dimen/_13sdp"
+                android:textColor="@color/colorBlack"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@color/colorlight_grey_view"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Minimum order value"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:textSize="@dimen/_13sdp"
+                android:textColor="@color/colordarkgrey"/>
+
+            <Spinner
+                android:id="@+id/spn_min"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=""
+                android:layout_marginTop="@dimen/_15sdp"
+                android:textSize="@dimen/_13sdp"
+                android:inputType="textPassword"
+                android:textColor="@color/colorBlack"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@color/colorlight_grey_view"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Maximum order value"
+                android:textSize="@dimen/_13sdp"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:textColor="@color/colordarkgrey"/>
+
+            <Spinner
+                android:id="@+id/spn_max"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=""
+                android:layout_marginTop="@dimen/_15sdp"
+                android:textSize="@dimen/_13sdp"
+                android:inputType="textPassword"
+                android:textColor="@color/colorBlack"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@color/colorlight_grey_view"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dealing category"
+                android:textSize="@dimen/_13sdp"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:textColor="@color/colordarkgrey"/>
+
+            <TextView
+                android:id="@+id/et_dealing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=""
+                android:layout_marginTop="@dimen/_15sdp"
+                android:textSize="@dimen/_13sdp"
+                android:background="@android:color/transparent"
+                android:inputType="textPassword"
+                android:textColor="@color/colorBlack"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@color/colorlight_grey_view"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sub Category"
+                android:textSize="@dimen/_13sdp"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:textColor="@color/colordarkgrey"/>
+
+            <TextView
+                android:id="@+id/et_sub"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=""
+                android:layout_marginTop="@dimen/_15sdp"
+                android:textSize="@dimen/_13sdp"
+                android:background="@android:color/transparent"
+                android:inputType="textPassword"
+                android:textColor="@color/colorBlack"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@color/colorlight_grey_view"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pincode"
+                android:textSize="@dimen/_13sdp"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:textColor="@color/colordarkgrey"/>
+
+            <EditText
+                android:id="@+id/et_pincode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=""
+                android:layout_marginTop="@dimen/_15sdp"
+                android:textSize="@dimen/_13sdp"
+                android:maxLength="6"
+                android:background="@android:color/transparent"
+                android:inputType="number"
+                android:textColor="@color/colorBlack"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@color/colorlight_grey_view"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How many km range you want order from"
+                android:textSize="@dimen/_13sdp"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:textColor="@color/colordarkgrey"/>
+
+            <Spinner
+                android:id="@+id/spn_order"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=""
+                android:layout_marginTop="@dimen/_15sdp"
+                android:textSize="@dimen/_13sdp"
+                android:inputType="textPassword"
+                android:textColor="@color/colorBlack"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@color/colorlight_grey_view"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

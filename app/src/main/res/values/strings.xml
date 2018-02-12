@@ -1,0 +1,218 @@
+<resources>
+    <string name="app_name">Swopx</string>
+    <string name="create_account">CREATE ACCOUNT</string>
+    <string name="if_you_have_an_aacount">If you have an aacount?</string>
+    <string name="login"><u>LOGIN</u></string>
+    <string name="here">here...!</string>
+    <string name="email_mobile_no">Email/Mobile no.</string>
+    <!--<string name="password">Password*********</string>-->
+    <string name="password">Password</string>
+    <string name="forgot_your_password">Forgot your Password</string>
+    <string name="or">Or</string>
+    <string name="login_with">Login with</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="enter_your_mobile_no">Enter your mobile number</string>
+    <string name="you_have_receive_5_digit_otp_to_login_swopx">You have receive 5 digit OTP to login Swopx</string>
+    <string name="if_you_have_account_please">If you have account please</string>
+    <string name="co">Continue</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="passwrd">Password</string>
+    <string name="what_do_you_want_to_register">What do you want to register?</string>
+    <string name="enter_name">Please enter the name.</string>
+    <string name="enter_email">Please enter the email.</string>
+    <string name="enter_passwrd">Please enter password.</string>
+    <string name="enter_valid_email">Please enter valid email.</string>
+    <string name="enter_con_pass">Please enter confirm password.</string>
+    <string name="psswrd_mathces">Confirm password does not mathes the password.</string>
+    <string name="internet_connection">No internet connection.</string>
+    <string name="enter_6_digits">Enter the 6-digit code sent to you at</string>
+    <string name="terms_con"><![CDATA[By continuing, I confirm that I have read and agree to the Terms & Conditions and Privacy Policy.]]></string>
+    <string name="to_learn_more_see_our_terms_of_use_and_n_privacy_policy">To learn more, see our Terms of Use and   Privacy Policy.</string>
+    <string name="enter_the_email_address_you_used_n_to_register">Enter the email address you used   to register</string>
+    <string name="what_s_your_name">What\'s your name?</string>
+    <string name="email_sent">Email sent!</string>
+    <string name="enter_the_email_address_you_used_nto_register">Enter the email address you used \nto register</string>
+    <string name="valid_otp">Please enter valid otp</string>
+    <string name="mobile_10">Mobile number should not be less than or greater than 10 digits</string>
+    <string name="mobile_validation">Please enter mobile no.</string>
+    <string name="your_password_settings">Your password settings</string>
+    <string name="detail_of_account_type">Detail of account type</string>
+    <string name="account">Account</string>
+    <string name="basic_notification_settings">Basic notification settings</string>
+    <string name="notifications">Notifications</string>
+    <string name="detail_regarding_your_loaction">Detail regarding your loaction</string>
+    <string name="location">Location</string>
+    <string name="detail_to_better_reach_your">Detail to better reach you</string>
+    <string name="contact_info">Contact Info</string>
+    <string name="your_dealing_category_and_other_prefrences">Your dealing category and other prefrences</string>
+    <string name="project_prefrences">Project Prefrences</string>
+    <string name="basic_company_information">Basic company information</string>
+    <string name="basic_info">Basic Info</string>
+    <string name="detail_regarding_your_swopx_account">Detail regarding your swopx account</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="cancel">Cancel</string>
+    <string name="post_a_project">Post a Project</string>
+    <string name="it_s_free_to_post_a_project">It\'s free to post a project!</string>
+    <string name="stone_aggregate">Stone Aggregate</string>
+    <string name="dust_06_mm_20_mm_20_mm">Dust, 06 MM, 20 MM, 20 MM</string>
+    <string name="bricks">Bricks</string>
+    <string name="no_1_no_2_no_3">No.1, No.2, No.3</string>
+    <string name="concrete">Concrete</string>
+    <string name="m15_m20_m25_m30_m35">M15, M20, M25, M30, M35</string>
+    <string name="cement">Cement</string>
+    <string name="ultratech_acc_mp_birla_bangur">UltraTech, ACC, MP Birla, Bangur</string>
+    <string name="steel_bars">Steel Bars</string>
+    <string name="interlocking_clc_block">Interlocking, CLC Block</string>
+    <string name="architect">Architect</string>
+    <string name="sales">Sales</string>
+    <string name="remodelling_house_plan">Remodelling, House plan</string>
+    <string name="connections">Connections</string>
+    <string name="done">Done</string>
+    <string name="skip">Skip</string>
+    <string name="let_s_build_your_network">Let\'s build your network</string>
+    <string name="invite_all">Invite all</string>
+    <string name="here_is_what_is_going_on_today">Here is what is going on today!</string>
+    <string name="messages">Messages</string>
+    <string name="chats">Chats</string>
+    <string name="contacts">Contacts</string>
+    <string name="connect_and_chat_to_get_thinks_done">Connect and chat to get thinks done</string>
+    <string name="messenger">Messenger</string>
+    <string name="my_projects">My Projects</string>
+    <string name="projects">Projects</string>
+    <string name="explore_your_projects_here">Explore your projects here</string>
+    <string name="work_in_progress">Work in Progress</string>
+    <!--<string name="past_projects">Past Projects</string>-->
+    <string name="past_projects">Leads</string>
+    <string name="you_are_what_you_do_not_what_you_say_you_ll_do">&quot;You are what you do, not what you say you\'ll do.&quot;\n\n\n -C.G Jung</string>
+    <string name="a_person_never_made_a_mistake_never_tried_anything_new">&quot;A person never made a mistake, never tried anything new&quot;\n\n\n -Albert Eistnein</string>
+    <string name="recommended">Recommended</string>
+    <string name="show_more">Show more</string>
+    <string name="recommended_sellers_for_you">Recommended Sellers for you</string>
+    <!--<string name="browse_projects_by_categories">Browse projects by Categories</string>-->
+    <string name="browse_projects_by_categories">Browse leads by categories</string>
+    <!--<string name="categories">Categories</string>-->
+    <string name="categories">Search Leads</string>
+    <string name="view_profile">View Profile</string>
+    <string name="post_project">Post Project</string>
+    <string name="details_regarding_your_payments_account">Details regarding your payments account</string>
+    <string name="payment_deposit_funds">Payment/Deposit funds</string>
+    <string name="other">Other</string>
+    <string name="invite_friends">Invite Friends</string>
+    <string name="invite_contacts_from_your_phone">Invite contacts from your phone</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="opens_our_privacy_policy">Opens our privacy policy</string>
+    <string name="account_settings">Account Settings</string>
+    <string name="u20b9_available_balance">₹ 0.0 INR </string>
+    <string name="mobile_no">Mobile No.</string>
+    <string name="your_website">Your website</string>
+    <string name="address">Address</string>
+    <string name="pincode">Pincode</string>
+    <string name="city">City</string>
+    <string name="state">State</string>
+    <string name="country">Country</string>
+    <string name="verify_password">Verify Password</string>
+    <string name="new_password">New Password</string>
+    <string name="new_passwrd">Enter new password</string>
+    <string name="retype_new">Re-type new password</string>
+    <string name="legal_entity">ex; private limited, individual and partnership</string>
+    <string name="legal_entity1">Legal entity</string>
+    <string name="etr_cmpny_name">Enter company name</string>
+    <string name="legal_entity_entr">enter legal entity</string>
+    <string name="enter_year">Enter year</string>
+    <string name="valid_website">Please enter valid website</string>
+    <string name="enter_website">Please enter website</string>
+    <string name="continue_as_a_guest"><u>Continue as a Guest</u></string>
+    <string name="we_know_who_the_best_and_worst_manufacturer_are_this_tool_will_help_you_to_get_bids_from_best">We know who the best(and worst) manufacturer are.This tool will help you to get bids from best</string>
+    <string name="what_do_you_ned_to_buy">What do you ned to buy?</string>
+    <string name="continue1">Continue</string>
+    <string name="what_size_do_you_want_to_buy">What do you want to buy?</string>
+    <string name="how_much_quantity_do_you_want_to_buy">How much quantity do you want to buy?</string>
+    <string name="what_is_the_best_phone_number_to_reach_you">What is the best phone number to reach you?</string>
+    <string name="we_hide_your_number_and_privacy_and_we_will_never_spam_you">We hide your number and privacy and we will never spam you</string>
+    <string name="by_clicking_continue_you_agree_to_our_terms_of_services_and_authorize_swopx_and_it_s_partners_to_send_automated_calls_and_text_messages_to_the_phone_no_provided_above_consent_is_not_a_condition_of_purchase">By clicking continue, you agree to our terms of services and authorize swopx and it\'s partners to send automated calls and text messages to the phone no. provided above consent is not a condition of purchase.</string>
+    <string name="request_submitted_successfully">Request submitted successfully!</string>
+    <string name="when_do_you_want_to_buy">When do you want to buy?</string>
+    <string name="browse">Browse</string>
+    <string name="rate_per_m_sup_3_sup">Rate per M<sup><small>3</small></sup></string>
+    <string name="rupee_symbol">₹</string>
+    <string name="your_current_bid_u20b9_ton">Your Current Bid(₹/ton)</string>
+    <string name="str_logout">LOGOUT</string>
+    <string name="str_logout_questn">Do you want to logout?</string>
+    <string name="this_feature_is_coming_soon">This feature is coming soon</string>
+    <string name="coming_soon">Coming Soon</string>
+    <!--<string name="bid_submitted">Your bid has been submitted to </string>-->
+    <string name="place_bid">Place Bid</string>
+    <string name="registered_cmpny">You have to register your company to place a bid.</string>
+    <!--<string name="post_project_content">Post your project and get started with your business with us, we promise to make it easier and provide you with the best at our end.</string>-->
+    <string name="post_project_content">Are you sure want to post project?</string>
+    <!--<string name="place_bid_content">Swopx gives you an enormous opportunity and dedicated network to connect to a seller in simple and easy step. Place your bid and we will get you with the best of our options.</string>-->
+    <string name="place_bid_content">Are you sure want to place bid?</string>
+    <string name="place_a_bid">Place a Bid</string>
+    <string name="earn_upto_rs_1000">Earn Upto ₹ 1 lakh</string>
+    <string name="terms_condition"><u><![CDATA[*Terms & Condition]]></u></string>
+    <string name="how_it_works"><u>How It Works</u></string>
+    <string name="get_rs_500_when_your_friend_completes_his_first_trip_with_us">Get ₹ 500 when your friend completes his first trip with us...!</string>
+    <string name="share_with_your_friends">Share with your friends</string>
+    <string name="login_with_swopx">Login with Swopx</string>
+    <string name="refer_and_earn">Refer and earn</string>
+    <string name="just_2000">Just invited you to Swopx and sent Rs. 2000. Join in 48 hours and get more - upto Rs 1 Lakh free in wallet. Download now: </string>
+    <string name="what_s_your_email">What\'s your email address?</string>
+    <string name="no_bids_till_now">No bids till now.</string>
+
+    <string-array name="fruits_array">
+        <item>Apples</item>
+        <item>Apricots</item>
+        <item>Avocado</item>
+        <item>Annona</item>
+        <item>Banana</item>
+        <item>Blueberry</item>
+        <item>Blackberry</item>
+        <item>Blackapple</item>
+        <item>Custard Apple</item>
+        <item>Clementine</item>
+        <item>Cantalope</item>
+        <item>Date</item>
+        <item>Elderberry</item>
+        <item>Fig</item>
+        <item>Grapefruit</item>
+        <item>Grape</item>
+        <item>Gooseberry</item>
+        <item>Guava</item>
+        <item>Honeydew melon</item>
+        <item>Jackfruit</item>
+        <item>Juniper Berry</item>
+        <item>Kiwi</item>
+        <item>Kumquat</item>
+        <item>Lemons</item>
+        <item>Limes</item>
+        <item>Lychee</item>
+        <item>Mango</item>
+        <item>Mandarin</item>
+        <item>Nectaraine</item>
+        <item>Orange</item>
+        <item>Olive</item>
+        <item>Prunes</item>
+        <item>Pears</item>
+        <item>Plum</item>
+        <item>Pineapple</item>
+        <item>Peach</item>
+        <item>Papaya</item>
+        <item>Pomelo</item>
+        <item>Raspberries</item>
+        <item>Rambutan</item>
+        <item>Strawberries</item>
+        <item>Sweety</item>
+        <item>Salmonberry</item>
+        <item>Tangerines</item>
+        <item>Tomato</item>
+        <item>Ugli</item>
+        <item>Watermelon</item>
+        <item>Woodapple</item>
+    </string-array>
+
+    <!--<string name="detail_regarding_your_swopx_account">Detail regarding your swopx account</string>-->
+    <!--<string name="edit_profile">Edit Profile</string>-->
+</resources>

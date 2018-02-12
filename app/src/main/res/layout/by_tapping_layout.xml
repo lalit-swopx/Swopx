@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/colorWhite"
+    android:scrollbars="none">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:padding="@dimen/_5sdp"
+        android:visibility="gone"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:orientation="vertical">
+        <ImageButton
+            android:id="@+id/bck_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@android:color/transparent"
+            android:padding="@dimen/_5sdp"
+            android:scaleType="centerCrop"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/back_btn" />
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/middle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/footer"
+        android:gravity="center"
+        android:layout_marginLeft="@dimen/_30sdp"
+        android:layout_marginRight="@dimen/_30sdp"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/black_asterick"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:gravity="left"
+            android:layout_marginTop="@dimen/_50sdp"
+            android:text="By tapping the arrow below, you agree to Term of Use and Privacy Policy"
+            android:inputType="textMultiLine"
+            android:singleLine="false"
+            android:padding="@dimen/_2sdp"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/_13sdp"/>
+        <TextView
+            android:id="@+id/forget"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:padding="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:text="@string/to_learn_more_see_our_terms_of_use_and_n_privacy_policy"
+            android:textColor="@color/colordarkgrey"
+            android:textSize="@dimen/_10sdp"/>
+    </LinearLayout>
+            <LinearLayout
+                android:id="@+id/footer"
+                android:layout_marginBottom="@dimen/_30sdp"
+                android:layout_alignParentBottom="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/_40sdp"
+                android:layout_marginLeft="@dimen/_30sdp"
+                android:layout_marginRight="@dimen/_30sdp"
+                android:gravity="center_vertical"
+                android:weightSum="1">
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_weight=".6"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:padding="@dimen/_5sdp"
+                    android:text=""
+                    android:textColor="@color/colordarkgrey"
+                    android:textSize="@dimen/_10sdp" />
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:layout_weight=".4">
+                    <ImageButton
+                        android:id="@+id/forwrd_btn"
+                        android:layout_width="@dimen/_45sdp"
+                        android:layout_height="@dimen/_45sdp"
+                        android:background="@drawable/circle_black"
+                        android:scaleType="centerInside"
+                        android:padding="@dimen/_5sdp"
+                        android:src="@drawable/frwrd_arrow"/>
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

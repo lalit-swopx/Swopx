@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:paddingTop="@dimen/_5sdp"
+        android:paddingBottom="@dimen/_5sdp"
+        android:paddingLeft="@dimen/_10sdp"
+        android:paddingRight="@dimen/_10sdp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:gravity="left"
+            android:text="@string/email_sent"
+            android:inputType="text"
+            android:singleLine="false"
+            android:padding="@dimen/_2sdp"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/_13sdp" />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/forget"
+                android:layout_width="0dp"
+                android:layout_weight=".7"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="@dimen/_5sdp"
+                android:text="Check your inbox for an email with a link to reset your password"
+                android:textColor="@color/colordarkgrey"
+                android:textSize="@dimen/_10sdp" />
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_weight=".3">
+                <ImageButton
+                    android:id="@+id/frwrd_btn"
+                    android:layout_width="@dimen/_50sdp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:scaleType="centerInside"
+                    android:padding="@dimen/_5sdp"
+                    android:src="@drawable/sent_email_icon"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <RadioGroup
+            android:id="@+id/radio_grp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:weightSum="1">
+                <RadioButton
+                    android:id="@+id/resend"
+                    android:layout_width="0dp"
+                    android:layout_weight=".5"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/checkbox_selector"
+                    android:button="@drawable/checkbox_selector"
+                    android:gravity="center"
+                    android:text="RESEND"
+                    android:checked="false"
+                    android:layout_marginRight="@dimen/_5sdp"
+                    android:inputType="text"
+                    android:padding="@dimen/_10sdp"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/_12sdp" />
+
+                <RadioButton
+                    android:id="@+id/ok_btn"
+                    android:layout_width="0dp"
+                    android:layout_weight=".5"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/checkbox_selector"
+                    android:button="@drawable/checkbox_selector"
+                    android:checked="true"
+                    android:gravity="center"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:text="OK"
+                    android:inputType="text"
+                    android:padding="@dimen/_10sdp"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/_12sdp" />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+
+</ScrollView>

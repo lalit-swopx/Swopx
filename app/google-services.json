@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "287988576585",
+    "firebase_url": "https://swopx-10844.firebaseio.com",
+    "project_id": "swopx-10844",
+    "storage_bucket": "swopx-10844.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:287988576585:android:4f5a0bc89dfd1021",
+        "android_client_info": {
+          "package_name": "com.swopx"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "287988576585-dvkug853hn9lfph9s2hhq5p4a2qrsocc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.swopx",
+            "certificate_hash": "cc507b639123f5351ebe0352df9809379482ab3e"
+          }
+        },
+        {
+          "client_id": "287988576585-jmfn7a1au4oc3v2p1gi27d4nlq86ttio.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.swopx",
+            "certificate_hash": "2d1fd7630541ce0bdf9630db566430b85b21905d"
+          }
+        },
+        {
+          "client_id": "287988576585-glc425bnb03eb0ebemp59nnqhjk4npgr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByi_1DYITe-m0mxREESRiNlkSlLRj0tMA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "287988576585-glc425bnb03eb0ebemp59nnqhjk4npgr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

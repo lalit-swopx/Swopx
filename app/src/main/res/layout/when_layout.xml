@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_5sdp"
+        android:src="@drawable/step_2"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_30sdp"
+        android:layout_marginRight="@dimen/_30sdp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_5sdp"
+        android:textColor="@color/colorBlack"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_30sdp"
+        android:layout_marginRight="@dimen/_30sdp"
+        android:inputType="textMultiLine"
+        android:text="@string/when_do_you_want_to_buy"
+        android:gravity="center"
+        android:textSize="@dimen/_13sdp"/>
+    <RadioGroup
+        android:id="@+id/rd_grp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_30sdp"
+        android:layout_marginRight="@dimen/_30sdp"
+        android:orientation="vertical">
+    <RadioButton
+        android:id="@+id/flex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_6sdp"
+        android:background="@drawable/checkbox_selector"
+        android:button="@drawable/checkbox_selector"
+        android:gravity="center"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/_11sdp"
+        android:text="I am flaxible"
+        android:layout_marginTop="@dimen/_10sdp"
+        />
+
+        <RadioButton
+            android:id="@+id/soon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_6sdp"
+            android:background="@drawable/checkbox_selector"
+            android:button="@drawable/checkbox_selector"
+            android:gravity="center"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/_11sdp"
+            android:text="As soon as possible"
+            android:layout_marginTop="@dimen/_10sdp"
+            />
+        <RadioButton
+            android:id="@+id/within"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_6sdp"
+            android:background="@drawable/checkbox_selector"
+            android:button="@drawable/checkbox_selector"
+            android:gravity="center"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/_11sdp"
+            android:text="Within a few days"
+            android:layout_marginTop="@dimen/_10sdp"
+            />
+        <RadioButton
+            android:id="@+id/week"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_6sdp"
+            android:background="@drawable/checkbox_selector"
+            android:button="@drawable/checkbox_selector"
+            android:gravity="center"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/_11sdp"
+            android:text="Within few weeks"
+            android:layout_marginTop="@dimen/_10sdp"
+            />
+    </RadioGroup>
+
+
+</LinearLayout>

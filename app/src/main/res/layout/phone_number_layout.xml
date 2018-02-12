@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_5sdp"
+        android:src="@drawable/step_4"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_30sdp"
+        android:layout_marginRight="@dimen/_30sdp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_2sdp"
+        android:textColor="@color/colorBlack"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:layout_marginLeft="@dimen/_30sdp"
+        android:layout_marginRight="@dimen/_30sdp"
+        android:inputType="textMultiLine"
+        android:text="@string/what_is_the_best_phone_number_to_reach_you"
+        android:gravity="center"
+        android:textSize="@dimen/_12sdp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_5sdp"
+        android:textColor="@color/colordarkgrey"
+        android:layout_marginLeft="@dimen/_30sdp"
+        android:layout_marginRight="@dimen/_30sdp"
+        android:inputType="textMultiLine"
+        android:text="@string/we_hide_your_number_and_privacy_and_we_will_never_spam_you"
+        android:gravity="center"
+        android:textSize="@dimen/_9sdp"/>
+    <EditText
+        android:id="@+id/phn_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_6sdp"
+        android:background="@drawable/curve_rectangle"
+        android:textColor="@color/colordarkgrey"
+        android:textSize="@dimen/_11sdp"
+        android:drawablePadding="@dimen/_5sdp"
+        android:drawableLeft="@drawable/phone_call"
+        android:hint="Phone"
+        android:inputType="number"
+        android:maxLength="10"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginLeft="@dimen/_30sdp"
+        android:layout_marginRight="@dimen/_30sdp"/>
+
+    <TextView
+        android:id="@+id/cont"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_5sdp"
+        android:background="@drawable/curve_rectangle_green"
+        android:textColor="@color/colorWhite"
+        android:gravity="center"
+        android:text="@string/continue1"
+        android:textSize="@dimen/_13sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_30sdp"
+        android:layout_marginRight="@dimen/_30sdp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_5sdp"
+        android:textColor="@color/colordarkgrey"
+        android:layout_marginLeft="@dimen/_30sdp"
+        android:layout_marginRight="@dimen/_30sdp"
+        android:inputType="textMultiLine"
+        android:text="@string/by_clicking_continue_you_agree_to_our_terms_of_services_and_authorize_swopx_and_it_s_partners_to_send_automated_calls_and_text_messages_to_the_phone_no_provided_above_consent_is_not_a_condition_of_purchase"
+        android:textSize="@dimen/_9sdp"/>
+
+</LinearLayout>
+    </ScrollView>

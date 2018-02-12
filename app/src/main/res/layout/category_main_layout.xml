@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/_5sdp">
+    <TextView
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:padding="@dimen/_5sdp"
+        android:drawableLeft="@drawable/back_button_blue"
+        android:text="Back"
+        android:textSize="@dimen/_13sdp"
+        android:textColor="@color/colorblue"
+        android:src="@drawable/back_button_blue"/>
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:padding="@dimen/_5sdp"
+        android:layout_centerInParent="true"
+        android:textSize="@dimen/_13sdp"
+        android:textColor="@color/colordarkgrey"/></RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/colorlight_grey_view"/>
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_below="@+id/header"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/footer"></FrameLayout>
+
+</LinearLayout>

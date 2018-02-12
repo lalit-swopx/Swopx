@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/colorWhite"
+    android:layout_marginLeft="@dimen/_30sdp"
+    android:layout_marginRight="@dimen/_30sdp"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/above"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/passwrd_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:gravity="left"
+            android:text="Welcome back, sign in to continue"
+            android:inputType="textMultiLine"
+            android:padding="@dimen/_2sdp"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/_16sdp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="@dimen/_40sdp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/passwrd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:gravity="left"
+                android:hint="Type password"
+                android:inputType="textPassword"
+                android:padding="@dimen/_2sdp"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/_13sdp" />
+            <EditText
+                android:id="@+id/con_passwrd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:gravity="left"
+                android:hint="Re-type password"
+                android:inputType="textPassword"
+                android:visibility="gone"
+                android:padding="@dimen/_2sdp"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/_13sdp" />
+
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@color/colorBlack" />
+        </LinearLayout>
+        </LinearLayout>
+<LinearLayout
+    android:layout_marginBottom="@dimen/_30sdp"
+    android:layout_alignParentBottom="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:weightSum="1">
+
+        <TextView
+            android:id="@+id/forget"
+            android:layout_width="0dp"
+            android:layout_weight=".8"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:padding="@dimen/_5sdp"
+            android:visibility="visible"
+            android:text="I forgot my password"
+            android:textColor="@color/colorblue"
+            android:textSize="@dimen/_13sdp" />
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_weight=".2">
+        <ImageButton
+            android:id="@+id/frwrd_btn"
+            android:layout_width="@dimen/_45sdp"
+            android:layout_height="@dimen/_45sdp"
+            android:background="@drawable/circle_gray"
+            android:scaleType="centerInside"
+            android:padding="@dimen/_5sdp"
+            android:src="@drawable/frwrd_arrow"/>
+    </LinearLayout>
+</LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
+
